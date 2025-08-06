@@ -1,0 +1,73 @@
+.basic {
+  justify-content: center;
+  align-items: center;
+  background-image: url(./image/fonstola\ 1.png);
+}
+
+.main_br {
+  border: 1px solid gray;
+  height: 0;
+  width: 15%;
+  position: relative;
+}
+
+.main_br::after {
+  width: 199px;
+  height: 105px;
+  size: 30px;
+  content: "Используйте эффективные элементы";
+  color: white;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  vertical-align: middle;
+  line-height: 100%;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-line {
+  width: 317px;
+  height: 0;
+  border-top: 1px solid #FFFFFF;
+}
+
+.main_astronaut {
+  width: 22em;
+}
+
+.direction {
+  color: white;
+  width: 235px;
+  font-size: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.direction-name{
+  font-size: 104px;
+}
+
+.basic_info {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+   bottom: 80px;
+}
+
+.info {
+  width: 199px;
+  height: 105px;
+  font-size: 30px;
+}
+
+.year {
+  display: flex;
+  align-items: flex-end;
+}
