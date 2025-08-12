@@ -24,19 +24,19 @@
   line-height: 100%;
 }
 
-.line {
+.basic__main-line {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.main-line {
+.basic__line {
   width: 317px;
   height: 0;
   border-top: 1px solid #FFFFFF;
 }
 
-.main_astronaut {
+.basic__astronaut {
   width: 22em;
 }
 
@@ -49,11 +49,11 @@
   justify-content: flex-end;
 }
 
-.direction-name{
+.direction__name{
   font-size: 104px;
 }
 
-.basic_info {
+.basic__info {
   color: white;
   display: flex;
   justify-content: space-around;
@@ -61,13 +61,13 @@
    bottom: 80px;
 }
 
-.info {
+.basic__info--text {
   width: 199px;
   height: 105px;
   font-size: 30px;
 }
 
-.year {
+.basic__info--year {
   display: flex;
   align-items: flex-end;
 }
