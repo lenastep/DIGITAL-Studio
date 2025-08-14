@@ -1,0 +1,53 @@
+.basic {
+  justify-content: center;
+  align-items: center;
+  background-image: url(../image/fonstola.png);
+
+  &__astronavt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-line {
+      width: 317px;
+      height: 0;
+      border-top: 1px solid #FFFFFF;
+    }
+
+    &-img {
+      width: 22em;
+    }
+
+    &-direction {
+      color: white;
+      width: 235px;
+      font-size: 28px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+
+      &-name {
+        font-size: 104px;
+      }
+    }
+  }
+
+  &__footer {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 80px;
+
+    &-text {
+      width: 199px;
+      height: 105px;
+      font-size: 30px;
+    }
+
+    &-year {
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+}
