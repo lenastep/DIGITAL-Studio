@@ -5,11 +5,11 @@
   height: 64px;
   justify-content: space-evenly;
   color: white;
-}
 
-.box-header__list {
+&__list {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 12px;
+}
 }
