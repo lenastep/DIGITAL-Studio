@@ -67,4 +67,22 @@ ul {
 .basic__footer-year {
   display: flex;
   align-items: flex-end;
+}
+
+.about {
+  background-image: url("../image/Rectangle.png");
+  height: 692px;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+}
+.about__line {
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+.about__line-item {
+  width: 223px;
+  border-bottom: 1px solid white;
+  height: 0;
 }/*# sourceMappingURL=style.css.map */
