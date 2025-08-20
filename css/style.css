@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header {
+  background-color: rgba(13, 13, 84, 0.5019607843);
+  display: flex;
+  align-items: center;
+  height: 64px;
+  justify-content: space-evenly;
+  color: white;
+}
+.header__list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.basic {
+  justify-content: center;
+  align-items: center;
+  background-image: url(../image/fonstola.png);
+}
+.basic__astronavt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.basic__astronavt-line {
+  width: 317px;
+  height: 0;
+  border-top: 1px solid #FFFFFF;
+}
+.basic__astronavt-img {
+  width: 22em;
+}
+.basic__astronavt-direction {
+  color: white;
+  width: 235px;
+  font-size: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.basic__astronavt-direction-name {
+  font-size: 104px;
+}
+.basic__footer {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  bottom: 80px;
+}
+.basic__footer-text {
+  width: 199px;
+  height: 105px;
+  font-size: 30px;
+}
+.basic__footer-year {
+  display: flex;
+  align-items: flex-end;
+}
+
+.about {
+  background-image: url("../image/Rectangle.png");
+  height: 692px;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+}
+.about__line {
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+.about__line-item {
+  width: 223px;
+  border-bottom: 1px solid white;
+  height: 0;
+}/*# sourceMappingURL=style.css.map */
