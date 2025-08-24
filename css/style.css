@@ -85,4 +85,11 @@ ul {
   width: 223px;
   border-bottom: 1px solid white;
   height: 0;
+}
+.about .advantages {
+  background-image: url("../image/Advantages.svg");
+  height: 692px;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
 }/*# sourceMappingURL=style.css.map */
